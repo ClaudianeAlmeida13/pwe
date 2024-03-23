@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 22/03</title>
+</head>
+<body>
+    <form > 
+      <label for="txtnome"><b> Nome:</b></label>
+        <input id="txtnome" type="text" placeholder="Insira nome completo">
+        <br><br>
+       <label for="pass"> <b>Senha:</b></label>
+        <input id="pass" type="password" placeholder="De 5 a 8 caracteres">
+        <br><br>
+        <label for="txtnome"><b> Data de Nascimento:</b></label>
+        <input id="txtnome" type="date" >
+        <br><br>
+        <label for="txtnumero"><b> Numero:</b></label>
+        <input id="txtnumero" type="number" min="0" max="9998" step="2">
+        <br><br>
+        <fieldset>
+            <legend><b>Contato</b></legend>
+        <label for="txtemail"><b> Email:</b></label>
+        <input id="txtemail" type="email" placeholder="exempl@exemplo.com" required >
+        <br><br>
+        <label for="txtsite"><b> Site:</b></label>
+        <input id="txtsite" type="url" placeholder="https://www.example.com" required>
+        <br><br>
+    </fieldset>
+    <br><br>
+                 
+        <label for="txtestado"><b> Estado:</b></label>
+     <select id="txtestado">
+        <option >MG</option>
+        <option >SP</option>
+        <option >RJ</option>
+        <option >ES</option>
+    </select>
+
+    
+    <br><br>
+    <label ><b> Sexo:</b></label>
+    <input id="masc" type="radio" name="sexo" >
+    <label for="masc">Masculino</label>
+    <input id="fem" type="radio" name="sexo" >
+    <label for="fem">Feminino</label>
+    <br><br>
+    <hr>
+    <br><br>
+        <label for=""><b>Linguagens de programação (domínio):</b></label>
+        <br>
+        <input id="language1" type="checkbox">
+        <label for="language1">C</label>
+        <br>
+
+        <input id="language2" type="checkbox">
+        <label for="language2">Java</label>
+        <br>
+
+        <input id="language3" type="checkbox">
+        <label for="language3">JavaScript</label>
+        <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+        <input type="button" value="sair">
+    </form>
+
+</body>
+</html>
