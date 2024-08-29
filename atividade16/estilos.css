@@ -36,15 +36,15 @@ nav {
 }
 
 .menu a.html5:hover {
-    background-image: url(img/.html5.png);
+    background-image: url(.img/.html5.png);
 }
 
 .menu a.css3:hover {
-    background-image: url(img/css3.png);
+    background-image: url(.img/css3.png);
 }
 
 .menu a.javascript:hover {
-    background-image: url(img/javascript.png);
+    background-image: url(.img/javascript.png);
 }
 
 section {
