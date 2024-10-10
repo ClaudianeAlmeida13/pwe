@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.Onibus {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #88c470; 
+    border: 2px solid #444; /* Borda simples para o ônibus */
+    padding: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+/* Rodas simples */
+.Onibus::before, .Onibus::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.Onibus::before {
+    left: 20px; 
+}
+
+.Onibus::after {
+    right: 20px; 
+}
+
+.coluna {
+    width: 45%;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+    padding: 8px;
+    background-color: #eee;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    text-align: center;
+}
